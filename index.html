@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Document</title>
+    <title>FarmEasy</title>
 </head>
 
 <body>
@@ -15,7 +15,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="">
-                    <img alt="Farmease Logo" class="a2" src="farmease-logo.png">
+                    <img alt="Farmease Logo" class="a2" src="images/farmeasy-logo.png">
                 </a>
                 <button aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-toggle="collapse" type="button">
                 <span class="navbar-toggler-icon">
@@ -34,9 +34,9 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a class="nav-link" href="javascript:void(0);"> Log In </a></li>
                         <li class="nav-item"><a class="nav-link" href="javascript:void(0);"> Sign Up </a></li>
-                        <li class="nav-item"><a class="nav-link" routerlink="/about-us" href="https://farmease.app/about-us">About Us</a></li>
-                        <li class="nav-item"><a class="nav-link" routerlink="/contact" href="https://farmease.app/contact">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link" routerlink="/get-help" href="https://farmease.app/get-help">Help</a></li>
+                        <li class="nav-item"><a class="nav-link" routerlink="/about-us" href="#">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" routerlink="/contact" href="#">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" routerlink="/get-help" href="#">Help</a></li>
                         <li class="nav-item sp">
                             <a class="nav-link link-color" href="#">
                                 <i class="fa fa-plus"></i> List Your Equipment </a>
@@ -46,11 +46,44 @@
                 <div class="site-overlay"></div>
                 <!---->
             </nav>
+        </nav>
+      </div>
+      </header>
+      <!-- Farm easy main pic part 1. banner part start's here -->
+      <div class="banner">
+      
+        <div class="containt">
+          <h3 class="centered">Sell Or Rent Out Farm Equipment</h3>
+          <form>
+            <div class="form-row">
+              <span>
+                <input type="text" class="form-control form-control-lg uncurve" id="colFormLabelLg"
+                  placeholder="Equipment Type">
+              </span>
+              <span>
+                <input type="text" class="form-control form-control-lg uncurve" id="colFormLabelLg"
+                  placeholder="Equipment Location">
+              </span>
+              <span class="d-inline-block" data-toggle="popover" data-content="Disabled popover">
+                <button style="background-color:red; color:white; " class="btn btn-primary uncurve listnowbtn"
+                  style="pointer-events: none;" type="button" disabled><strong> List Now</strong></button>
+              </span>
+      
+            </div>
+          </form>
+          <div>
+            <br />
+            <button class="btn btn-primary curve needhelpbtn" routerlink="/farm-equipment-for-sale"
+              href="https://farmease.app/farm-equipment-for-sale"> Need An Equipment? </button>
+          </div>
+        </div>
+      </div>
+      <!-- Farm easy main pic part 1.Banner part ends here  -->
 
-            </nav>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
