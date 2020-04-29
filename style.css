@@ -397,5 +397,111 @@ img.a2 {
 }
 /* logo and flex part end here */
 /* rajaram and dinesh thing start here  */
+.ram-section {
+	width: 1519.2px;
+	height: 377.25;
+	margin-bottom: 30px;
+	position: relative;
+}
+.container-ram {
+	width: 1110px;
+	height: 377.25px;
+	padding: 0px 15px;
+	margin: 0px auto;
+}
+.row-ram {
+	height: 310px;
+	width: 1140px;
+	margin: 0px -15px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.flex-ram {
+	width: 540px;
+	height: 310px;
+	padding: 0px 15px;
+	flex: 0 0 50%;
+	max-width: 50%;
+}
+.image-ram {
+	width: 540px;
+	height: 310px;
+	position: relative;
+	background-size: cover;
+	background-position: center;
+}
+.text-ram {
+	width: 480px;
+	height: 61.25px;
+	padding: 10px 30px;
+}
+.right-din {
+	text-align: right !important;
+}
+.tag-line-ram {
+	text-align: center;
+	font-size: 25px;
+	margin: 41px 0;
+	font-weight: 700;
+	color: #716d6e;
+	width: 1110px;
+	height: 26.25px;
+}
+.phone {
+	width: 121.533;
+	height: 250.183;
+	position: absolute;
+	top: 45px;
+	left: 47%;
+	width: 8%;
+}
 
 /* rajaram and dinesh thing end here  */
+/* Instruction part start here  */
+
+.instruction-area {
+	width: 1519.2px;
+	height: 393.2px;
+}
+.ins-container {
+	width: 1110px;
+	height: 393.2px;
+	padding: 0px 15px;
+	margin: 0px auto;
+}
+.ins-text {
+	width: 1110px;
+	height: 60px;
+	position: relative;
+	margin-bottom: -80px;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 60px;
+}
+.ins-row {
+	width: 1140px;
+	height: 253.2px;
+	margin: 0px -15px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px -15px;
+	margin-top: 150px;
+}
+.ins-flex {
+	width: 350px;
+	height: 253.2px;
+	padding: 0px 15px;
+	flex: 0 0 33.333333%;
+}
+.ins-listing-info {
+	width: 350px;
+	height: 228.2px;
+	margin-bottom: 25px;
+}
+.icon {
+	width: 350px;
+	height: 48.2px;
+	margin-bottom: 20px;
+}
+/* Instruction part end here  */
