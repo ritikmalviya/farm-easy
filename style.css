@@ -344,3 +344,58 @@ img.a2 {
 }
 
 /* Banner part ends here  */
+/* logo and flex part start here  */
+.containt-areal {
+	height: 200px;
+	width: 1519.2px;
+	margin: 50px 0px;
+}
+.container-boxl {
+	width: 1110px;
+	height: 200px;
+	margin: 0px auto;
+}
+.row-arrangel {
+	width: 1140px;
+	height: 200px;
+	margin: 0px -15px;
+	display: flex;
+}
+.flex-boxl {
+	display: flex;
+	flex-wrap: wrap;
+}
+.logo-boxl {
+	height: 200px;
+	width: 255px;
+	padding: 0px 15px;
+	background-color: #e52e4b;
+	margin-left: 15px;
+}
+.logol {
+	height: 52.933px;
+	width: 255px;
+	margin-bottom: 20px;
+	margin-left: 60px;
+	margin-top: 50px;
+}
+.image-logol {
+	width: 108px;
+	height: 45px;
+}
+.text-logol {
+	width: 255px;
+	height: 35px;
+	font-size: 18px;
+	line-height: 35px;
+	font-weight: 600;
+	margin-top: 30px;
+	margin-right: -15px;
+	margin-left: -15px;
+	color: white;
+	text-align: center;
+}
+/* logo and flex part end here */
+/* rajaram and dinesh thing start here  */
+
+/* rajaram and dinesh thing end here  */
